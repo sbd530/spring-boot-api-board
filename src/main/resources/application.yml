@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+    messages:
+      basename: i18n/exception
+
+    jwt:
+      secret: 1234
