@@ -1,6 +1,7 @@
 package study.board.api.entity.board;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -42,6 +43,7 @@ public class Post extends CommonDateEntity {
     }
 
     //Constructor
+    @Builder
     public Post(String author, String title, String content, Board board, User user) {
         this.author = author;
         this.title = title;
