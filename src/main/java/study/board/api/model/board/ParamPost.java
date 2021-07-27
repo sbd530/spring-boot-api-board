@@ -1,4 +1,4 @@
-package study.board.api.model;
+package study.board.api.model.board;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;

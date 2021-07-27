@@ -1,4 +1,4 @@
-package study.board.api.service;
+package study.board.api.service.board;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -10,7 +10,7 @@ import study.board.api.advice.exception.CUserNotFoundException;
 import study.board.api.entity.User;
 import study.board.api.entity.board.Board;
 import study.board.api.entity.board.Post;
-import study.board.api.model.ParamPost;
+import study.board.api.model.board.ParamPost;
 import study.board.api.repo.UserJpaRepo;
 import study.board.api.repo.board.BoardJpaRepo;
 import study.board.api.repo.board.PostJapRepo;

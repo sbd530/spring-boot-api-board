@@ -1,0 +1,25 @@
+#logging:
+#  level:
+#    root: info
+#    study.board.api: debug
+#
+#spring:
+#
+#  profiles: local
+#
+#  datasorce:
+#    url: jdbc:h2:tcp://localhost/~/board
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+
+#  jpa:
+#    properties.hibernate:
+#      hbm2ddl.auto: update
+#      format_sql: true
+#    showSql: true
+#    generate-ddl: true
+#
+#  url:
+#    base: http://localhost:8080

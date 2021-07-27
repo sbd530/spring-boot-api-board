@@ -1,0 +1,10 @@
+unKnown:
+  code: "-9999"
+  msg: "알수없는 오류가 발생하였습니다."
+
+notOwner:
+  code: "-1006"
+  msg: "해당 자원의 소유자가 아닙니다."
+resourceNotExist:
+  code: "-1007"
+  msg: "요청한 자원이 존재하지 않습니다."

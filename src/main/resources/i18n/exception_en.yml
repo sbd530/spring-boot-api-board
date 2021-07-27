@@ -1,0 +1,10 @@
+unKnown:
+  code: "-9999"
+  msg: "An unknown error has occurred."
+
+notOwner:
+  code: "-1006"
+  msg: "You are not the owner of this resource."
+resourceNotExist:
+  code: "-1007"
+  msg: "This resource does not exist."
